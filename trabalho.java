@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
+//função main
 public class Gerenc_Arc {
     public static void main(String[] args) {
         int escolha = 0;
@@ -48,7 +48,7 @@ public class Gerenc_Arc {
         leitor.close(); 
     }
 
-    
+    //função adicionar registro
     public static void adicionarRegistro() {
         File arquivo = nomeArquivo();
 
@@ -81,7 +81,7 @@ public class Gerenc_Arc {
         }
     }
 
-    
+    //função editar registro
     public static void editarRegistroReal() {
         File arquivo = nomeArquivo();
 
